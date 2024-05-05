@@ -1,0 +1,449 @@
+body {
+    font-family:"Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    font-size: 23px;
+  }
+  
+  nav {
+    background-color: black;
+    color: white;
+    height: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul .right-icons {
+    margin-left: auto;
+  }
+  
+  nav ul .right-icons li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+  }
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .text {
+    width: 50%; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  p {
+    text-align: justify;
+    padding-left: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+  }
+  
+  #quien-soy .title, #estudios .title, #experiencia .title {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  #quien-soy .text h2 {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 10%; 
+    text-decoration: underline; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+  }
+  .qs {
+    font-size: 2rem; 
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 10%; 
+    text-decoration: underline; 
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  .xp {
+    font-size: 2rem; 
+    margin-top: 1rem;
+    margin-left: 10%; 
+    margin-right:7%;
+  }
+  #estudios .text h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    margin-left: 350px;
+    text-decoration: underline;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  #estudios .text .timeline-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    height: 100%;
+    margin-left: 35%;
+    font-size: 26px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  #estudios .text .title-text {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin-left: 37%;
+    font-size: 140%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  #estudios .text .timeline-text p {
+    line-height: 3;
+  }
+  
+  #estudios .content-wrapper .mapa iframe {
+    width: 50%; 
+    margin-left: 40%; 
+    display: flex; 
+  }
+  
+  #estudios .content-wrapper .mapa p {
+    font-size: 30px; 
+    margin-right: 10%;
+    margin-left: 38%;
+  }
+
+  .lt {
+    margin-left: 0; 
+    text-align: center;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .text {
+    width: 50%;
+  }
+  .mapa {
+    width: 50%;
+  }
+  
+  #quien-soy .text p, #experiencia .text p {
+    font-size: 2rem;
+    margin-left: 5%;
+  }
+  
+  #quien-soy .image {
+    width: 38%;
+    height: 1%; 
+    display: block;
+    margin-right: 6%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+  
+  #quien-soy .image img {
+    max-width: 40%;
+    height: auto;
+    border: 1px solid black;
+  }
+  #estudios .content-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #estudios .content-wrapper .text {
+    width: 50%;
+  }
+  #estudios .content-wrapper .mapa {
+    width: 50%;
+  }
+  #experiencia .text h1 {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-left: 100px;
+    text-decoration: underline;
+  }
+  
+  #experiencia .text {
+    width: 100%; 
+    margin-right: 100px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+  
+  #mas-contenido .title {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  
+  #mas-contenido .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  #mas-contenido .video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #mas-contenido .video iframe {
+    border: 1px solid black; 
+    margin-top: 5%;
+  }
+  
+  #mas-contenido .download {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-left: 25%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  #mas-contenido .download a {
+    text-decoration: none;
+    color: white; 
+    background-color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  footer {
+    background-color: #f8f8f8;
+    padding: 1px;
+    text-align: center;
+  }
+  
+  footer .contact-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  footer .text {
+    flex: 1;
+    text-align: center;
+  }
+
+  footer .text p {
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  
+  footer .flag-button {
+    margin-right: 50px;
+    padding: 5px;
+  }
+  
+  footer .flag-image {
+    width: 70px; 
+  }
+  @media only screen and (max-width: 768px) {
+    nav {
+      height: auto; 
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    nav ul .right-icons {
+      margin-left: 0; 
+      margin-top: 5%; 
+    }
+  
+    nav ul .right-icons li {
+      margin-left: 0; 
+      margin-top: 5%; 
+    }
+    .qs {
+      font-size: 2rem; 
+      font-weight: bold;
+      margin-top: 1rem;
+      margin-left: 10%; 
+      text-decoration: underline; 
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+      
+    }
+    #quien-soy .image {
+      width: 40%; 
+      height: 20%;
+      margin-left: 6%;
+      margin-top: 20%; 
+    }
+  
+    .lt {
+      margin-left: 0; 
+      text-align: center;
+    }
+    #estudios .text .title-text {
+      display: flex;
+      justify-content: flex-start;
+      align-items: flex-start; 
+      margin-left: 12%;
+      font-size: 140%;
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: <weight>;
+      font-style: normal;
+    }
+    #estudios .text .timeline-text {
+      margin-left: 10%; 
+      display: block; 
+      font-size: 18px; 
+    }
+  
+  
+    #estudios .content-wrapper .mapa iframe {
+      width: 80%; 
+      margin: auto; 
+    }
+  
+    #estudios .content-wrapper .mapa p {
+      font-size: 24px; 
+      margin: 0 auto; 
+    }
+  
+    #experiencia .text h1 {
+      margin-left: 0; 
+      text-align: center;
+      margin-right: 5%;
+    }
+  
+    #experiencia .text {
+      width: 100%; 
+      margin-right: 0; 
+    }
+  
+    .text {
+      width: 100%; 
+    }
+    #mas-contenido .download {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+    
+    #mas-contenido .download a {
+      text-decoration: none;
+      color: white; 
+      background-color: gray;
+      border: 1px solid gray;
+      padding: 10px;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .download {
+      width: auto; 
+      margin-top: 20px;
+      text-align: center;
+    }
+  
+    .download a {
+      padding: 15px;
+      display: inline-block;
+      background-color: gray; 
+      color: white; 
+      text-decoration: none;
+      border-radius: 5px; 
+    }
+    footer .contact-info {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }  
+    footer .text {
+      flex: 1;
+      text-align: center;
+    }
+  
+    footer .text p {
+      font-size: 20px;
+      margin: 0 10px;
+    }
+    
+    footer .flag-button {
+      margin-right: 50px;
+      padding: 5px;
+    }
+    
+    footer .flag-image {
+      width: 70px; 
+    }
+  }
+  
